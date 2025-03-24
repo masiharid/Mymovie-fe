@@ -19,3 +19,23 @@ Mymovie is a web application that allows users to browse and book movie tickets.
 - **Ant Design**: A UI library for React with a set of high-quality components.
 - **Axios**: A promise-based HTTP client for making API requests.
 - **Stripe**: A payment processing platform.
+
+UI Components
+Home Page
+Movie List: Displays a list of available movies with their posters, titles, and languages.
+Search Bar: Allows users to search for movies by title.
+Book Show Page
+Show Details: Displays details of the selected show, including the movie title, language, theatre name, and address.
+Seat Selection: Allows users to select seats for the show.
+Payment: Integrates with Stripe for secure payment processing.
+Profile Page
+Booking History: Displays a list of past bookings with details such as movie title, theatre name, date, time, and seats.
+Booking Details: Shows detailed information about each booking, including the booking ID and ticket price.
+API Calls
+The frontend makes API calls to the backend to fetch data and perform actions. The API calls are organized in the src/apicalls directory.
+
+User API Calls
+RegisterUser: Registers a new user.
+LoginUser: Logs in a user.
+GetCurrentUser: Fetches the current logged-in user's details.
+
